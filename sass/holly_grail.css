@@ -1,34 +1,47 @@
 @charset "UTF-8";
 /* line 1, C:/Users/Sönder/Desktop/Webbutveckling/flexbox/sass/holly_grail.sass */
 body {
-  background: #555; }
-  /* line 6, C:/Users/Sönder/Desktop/Webbutveckling/flexbox/sass/holly_grail.sass */
-  body .container header {
-    background: orange;
-    height: 100px;
-    padding: 20px; }
-  /* line 11, C:/Users/Sönder/Desktop/Webbutveckling/flexbox/sass/holly_grail.sass */
-  body .container footer {
-    background: orange;
-    height: 50px;
-    padding: 20px; }
-    /* line 16, C:/Users/Sönder/Desktop/Webbutveckling/flexbox/sass/holly_grail.sass */
-    body .container footer .barn1 {
-      width: 25%; }
-    /* line 18, C:/Users/Sönder/Desktop/Webbutveckling/flexbox/sass/holly_grail.sass */
-    body .container footer .barn2 {
-      width: 50%;
-      background: white; }
-    /* line 21, C:/Users/Sönder/Desktop/Webbutveckling/flexbox/sass/holly_grail.sass */
-    body .container footer .barn3 {
-      width: 25%; }
-  /* line 24, C:/Users/Sönder/Desktop/Webbutveckling/flexbox/sass/holly_grail.sass */
-  body .container .container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: stretch;
-    align-items: center; }
+  background: #555;
+  margin: 0;
+  padding: 0; }
+
+/* line 7, C:/Users/Sönder/Desktop/Webbutveckling/flexbox/sass/holly_grail.sass */
+.kontainer header {
+  background: orange;
+  height: 100px;
+  width: 100%;
+  padding: 20px;
+  position: fixed; }
+
+/* line 13, C:/Users/Sönder/Desktop/Webbutveckling/flexbox/sass/holly_grail.sass */
+.kontainer main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: stretch;
+  padding-top: 140px; }
+  /* line 22, C:/Users/Sönder/Desktop/Webbutveckling/flexbox/sass/holly_grail.sass */
+  .kontainer main .sidebar1 {
+    width: 15%;
+    background: yellow; }
+  /* line 26, C:/Users/Sönder/Desktop/Webbutveckling/flexbox/sass/holly_grail.sass */
+  .kontainer main .text {
+    width: 70%;
+    background: blue; }
+  /* line 30, C:/Users/Sönder/Desktop/Webbutveckling/flexbox/sass/holly_grail.sass */
+  .kontainer main .sidebar2 {
+    width: 15%;
+    background: yellow; }
+
+/* line 34, C:/Users/Sönder/Desktop/Webbutveckling/flexbox/sass/holly_grail.sass */
+.kontainer footer {
+  background: orange;
+  height: 50px;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
 
 /*# sourceMappingURL=holly_grail.css.map */

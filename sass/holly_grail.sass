@@ -1,31 +1,40 @@
 body
     background: #555
+    margin: 0
+    padding: 0
 
+.kontainer
+    header
+        background: orange
+        height: 100px
+        width: 100%
+        padding: 20px
+        position: fixed
+    main
+        display:flex
+        flex-direction: row
+        flex-wrap: wrap
+        justify-content: center
+        align-content: stretch
+        align-items: stretch
+        padding-top: 140px
 
-    .container
-        header
-            background: orange
-            height: 100px
-            padding: 20px
+        .sidebar1
+            width: 15%
+            background: yellow
 
-        footer
-            background: orange
-            height: 50px
-            padding: 20px
+        .text
+            width: 70%
+            background: blue
 
-            .barn1
-                width: 25%
-            .barn2
-                width: 50%
-                background: white
-            .barn3
-                width: 25%
+        .sidebar2
+            width: 15%
+            background: yellow
 
-        .container
-            display: flex
-            flex-direction: row
-            flex-wrap: wrap
-            justify-content: center
-            align-content: stretch
-            align-items: center
-
+    footer
+        background: orange
+        height: 50px
+        padding: 20px
+        position: fixed
+        bottom: 0
+        width: 100%
